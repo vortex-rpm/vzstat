@@ -2,7 +2,7 @@
 
 Summary:	vzlist enhancer
 Name:		vzstat
-Version:	0.2
+Version:	0.3
 Release:	1.vortex%{?dist}
 Vendor:		Vortex RPM
 BuildArch:	noarch
@@ -40,6 +40,9 @@ rm -rf %{buildroot}
 %doc LICENSE README.rst
 
 %changelog
+* Wed Mar 11 2012 Ilya A. Otyutskiy <sharp@thesharp.ru> - 0.3-1
+- Update to 0.3.
+
 * Wed Mar 07 2012 Ilya A. Otyutskiy <sharp@thesharp.ru> - 0.2-1
 - Update to 0.2.
 
