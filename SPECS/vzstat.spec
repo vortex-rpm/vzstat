@@ -37,7 +37,7 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %{_sbindir}/vzstat
-%doc LICENSE README.rst
+%doc LICENSE README.md
 
 %changelog
 * Fri Aug 10 2012 Ilya A. Otyutskiy <sharp@thesharp.ru> - 0.4-1
